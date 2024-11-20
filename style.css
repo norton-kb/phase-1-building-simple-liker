@@ -64,3 +64,30 @@ article.media-post > footer ul {
 .hidden {
   visibility: hidden;
 }
+/* Initially hide the error modal */
+.error-modal.hidden {
+  display: none;
+}
+
+/* Heart icon styles */
+.heart {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+/* Full heart (activated state) */
+.heart.activated-heart {
+  color: red;
+}
+
+/* Modal style */
+.error-modal {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
